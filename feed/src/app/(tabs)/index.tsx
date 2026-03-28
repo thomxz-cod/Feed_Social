@@ -5,7 +5,6 @@ import { api } from "../../../convex/_generated/api";
 import { styles } from "../../../assets/styles/home.styles";
 import { theme } from "../../../hooks/useTheme";
 import { LinearGradient } from "expo-linear-gradient";
-import { Link } from "expo-router";
 
 export default function Feed() {
   const posts = useQuery(api.posts.getPosts);

@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
 
   header: {
     height: 180,
-    backgroundColor: "#5c0f0f",
+    backgroundColor: "#5c0f0fdc",
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
   },
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
     alignSelf: "center",
     marginTop: -60,
     borderWidth: 4,
-    borderColor: "#9d1bb8",
+    borderColor: "#cb1414",
   },
 
   name: {
@@ -29,6 +29,12 @@ export const styles = StyleSheet.create({
     fontSize: 22,
     marginTop: 10,
     fontWeight: "bold",
+  },
+  link:{
+    color: "#e7e7e7",
+    textAlign: "center",
+    fontSize: 18,
+    marginTop: 10,
   },
 
   stats: {
@@ -54,6 +60,6 @@ export const styles = StyleSheet.create({
 
   gridImage: {
     width: "33%",
-    height: 120,
+    height: 200,
   },
 });

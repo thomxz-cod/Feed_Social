@@ -1,5 +1,6 @@
 import { View, Text, Image, FlatList } from "react-native";
 import { styles } from "../../../assets/styles/user.styles";
+import { Link } from "expo-router";
 
 export default function User() {
   const posts = [
@@ -21,6 +22,11 @@ export default function User() {
           />
 
           <Text style={styles.name}>tz_zzz7</Text>
+
+          <View style={styles.stats}>
+            <Link href={"https://github.com/thomxz-cod"} style={styles.link} target="_blank">GitHub</Link>
+            <Link href={"https://www.instagram.com/thomxz._7"} style={styles.link} target="_blank">Insta</Link>
+          </View>
 
           <View style={styles.stats}>
             <View style={styles.statBox}>
