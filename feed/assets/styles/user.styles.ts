@@ -3,12 +3,12 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#020414",
+    backgroundColor: "#03041c",
   },
 
   header: {
     height: 180,
-    backgroundColor: "#AD1313",
+    backgroundColor: "#5c0f0f",
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
   },
@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
     alignSelf: "center",
     marginTop: -60,
     borderWidth: 4,
-    borderColor: "#020414",
+    borderColor: "#9d1bb8",
   },
 
   name: {

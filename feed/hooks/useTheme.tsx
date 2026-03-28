@@ -8,7 +8,7 @@ export const theme = {
   },
 
   gradient: {
-    main: ["#020414", "#0a0d1f", "#AD1313"],
+    main: ["#040110", "#110505", "#4d0c0c"],
     card: ["#0d0f1a", "#020414"],
   },
 };

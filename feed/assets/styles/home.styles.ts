@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: "#AD1313",
+    backgroundColor: "#891717",
     padding: 14,
     borderRadius: 12,
     alignItems: "center",
@@ -36,9 +36,13 @@ export const styles = StyleSheet.create({
   },
 
   post: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
     padding: 10,
     borderRadius: 16,
     marginBottom: 15,
+    paddingBottom: 20
   },
 
   postTitle: {
@@ -48,15 +52,15 @@ export const styles = StyleSheet.create({
   },
 
   postImage: {
-    width: "100%",
-    height: 200,
+    width: "90%",
+    height: 300,
     borderRadius: 12,
   },
 
   link: {
     color: "#AD1313",
     textAlign: "center",
-    marginTop: 10,
+    marginVertical: 10,
   },
 
   loading: {
